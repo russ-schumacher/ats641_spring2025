@@ -98,3 +98,20 @@ Analyze the map given the guidelines below. For this analysis, focus on the syno
 
 In a couple sentences, describe the key features of the weather pattern that were revealed from your surface analysis.
 
+### MetPy automated analysis
+
+Manual analysis is a valuable way to get a real "feel" for the data in a given weather situation, but it also can be time consuming. A wide variety of methods for automating the analysis of weather data have been developed over the years, with varying complexity. MetPy has some of these methods built in. We'll use one of those methods here to analyze the same data that you analyzed by hand above.
+
+Another example notebook, modified from a MetPy example, is at [https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/METAR_data_interpolation_dist.ipynb](https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/METAR_data_interpolation_dist.ipynb) This will plot the same surface map as before, but will also analyze the pressure and temperature and plot them on the map. Go through this notebook to get the map.
+
+Are there any noticeable/relevant/interesting differences between your hand analysis and this analysis? 
+
+You might not like how this map looks, so spend some time making a nicer-looking version of this analysis. The MetPy notebook that my example was based on (linked near the top) provides some ideas, but feel free to experiment with your own style.
+
+### GFS analysis
+
+Finally, we can see how the analysis of solely surface observations compares to an operational forecast system with sophisticated data assimilation. Here, we'll use NOAA's GFS (but you could replicate this with other modeling systems if you want). In the same notebook above, steps are included to acquire the needed data using a magical tool called [Herbie](https://herbie.readthedocs.io/en/stable/). Plot surface map(s) from the GFS following similar steps to what you used above.
+
+Are there any noticeable/relevant/interesting differences between your hand analysis and the GFS analysis? What about between the interpolation method and the GFS? Discuss the strengths and weaknesses of each method, at least as far as you can determine from this single case.
+
+When you turn in your write-up, include your hand-analyzed map, the initial map with the automated analysis, and your "final product" maps (hard copy and/or electronic versions are fine). 
