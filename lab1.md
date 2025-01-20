@@ -4,6 +4,9 @@
 
 For lab assignment 1, we'll be using various python tools that are useful for analyzing and visualizing weather data, including [MetPy](https://unidata.github.io/MetPy/latest/index.html), developed by NSF Unidata. The first step, if you haven't done this before, will be to install python, and then ultimately install MetPy and related packages.
 
+## Note on python installation
+For some of the things we will do in class with python, you could quite easily use [Google's Colab](https://colab.research.google.com) to run the needed python code and notebooks. This could save you some time initially if you don't have a lot of python experience or run into trouble. However, for activities later in the semester, it'll likely be a lot easier to have it installed on your computer, because we'll be dealing with larger files that aren't saved in the cloud, etc. So I'd recommend following the install steps below, but will leave that choice up to you as to what you think will work best for your own preferences and computing situation.
+
 ## Installing python via miniforge
 First, let's install the miniforge version of python.  (If you already have miniconda/anaconda/mamba installed on the computer you want to use, you can skip this step and go to the assignment.)  Following the instructions, which are based on those in the [Unidata python workshop](https://unidata.github.io/python-training/), but modified to use Miniforge/mamba instead, which is much faster:
 
@@ -83,7 +86,7 @@ Now, we're going to use some of these approaches to plot a surface weather map t
 
 ### Surface map
 
-We'll start by plotting a surface map from 0000 UTC 18 January 2025 over eastern North America. I've provided an example notebook that you can use for this (adapted from a MetPy example; you can right-click and save from this link): [https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/Station_Plot.ipynb](https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/Station_Plot.ipynb). You'll also need the file with all of the surface observations (in METAR format, which MetPy nicely decodes), here: [https://github.com/russ-schumacher/ats641_spring2023/blob/main/lab1/metar_20230103_1800.txt](https://github.com/russ-schumacher/ats641_spring2023/blob/main/lab1/metar_20230103_1800.txt). 
+We'll start by plotting a surface map from 0000 UTC 18 January 2025 over eastern North America. I've provided an example notebook that you can use for this (adapted from a MetPy example; you can right-click and save from this link): [https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/Station_Plot.ipynb](https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/Station_Plot.ipynb). You'll also need the file with all of the surface observations (in METAR format, which MetPy nicely decodes), here: [https://github.com/russ-schumacher/ats641_spring2023/blob/main/lab1/metar_20230103_1800.txt](https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/metar_20250118_0000.txt).
 
 Go through the steps in the notebook to get your surface map. Print it out, or if you have a tablet with a pencil you could do the analysis that way too. (If you don't have easy access to a color printer, let Russ or Jacob know.)
 
