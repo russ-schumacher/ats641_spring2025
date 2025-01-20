@@ -77,3 +77,21 @@ There are different ways you can run and interact with python, but a great way t
 
 - When you're done with JupyterLab, simply go under the File menu and select "Shut down".  Once this happens, you can close that browser window.
 
+## Lab 1 assignment
+
+Now, we're going to use some of these approaches to plot a surface weather map to analyze in multiple ways. For those of you with a lot of meteorological background, some of this may seem simple, but we want to make sure everyone’s on the same page before moving on to more complicated analyses.
+
+### Surface map
+
+We'll start by plotting a surface map from 0000 UTC 18 January 2025 over eastern North America. I've provided an example notebook that you can use for this (adapted from a MetPy example; you can right-click and save from this link): [https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/Station_Plot.ipynb](https://github.com/russ-schumacher/ats641_spring2025/blob/main/lab1/Station_Plot.ipynb). You'll also need the file with all of the surface observations (in METAR format, which MetPy nicely decodes), here: [https://github.com/russ-schumacher/ats641_spring2023/blob/main/lab1/metar_20230103_1800.txt](https://github.com/russ-schumacher/ats641_spring2023/blob/main/lab1/metar_20230103_1800.txt). 
+
+Go through the steps in the notebook to get your surface map. Print it out, or if you have a tablet with a pencil you could do the analysis that way too. (If you don't have easy access to a color printer, let Russ or Jacob know.)
+
+Analyze the map given the guidelines below. For this analysis, focus on the synoptic-scale features by keeping your contours fairly smooth.
+- Draw isobars in solid black lines at 4 hPa intervals.
+- Draw isotherms in red (or another color) lines at 5°C intervals.
+- Indicate the locations of any high and low pressure centers with an H or L, respectively.
+- Analyze any fronts that are present.
+
+In a couple sentences, describe the key features of the weather pattern that were revealed from your surface analysis.
+
