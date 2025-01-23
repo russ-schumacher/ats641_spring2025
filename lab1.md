@@ -8,7 +8,7 @@ For lab assignment 1, we'll be using various python tools that are useful for an
 For some of the things we will do in class with python, you could quite easily use [Google's Colab](https://colab.research.google.com) to run the needed python code and notebooks. This could save you some time initially if you don't have a lot of python experience or run into trouble. However, for activities later in the semester, it'll likely be a lot easier to have it installed on your computer, because we'll be dealing with larger files that aren't saved in the cloud, etc. So I'd recommend following the install steps below, but will leave that choice up to you as to what you think will work best for your own preferences and computing situation.
 
 ## Installing python via miniforge
-First, let's install the miniforge version of python.  (If you already have miniconda/anaconda/mamba installed on the computer you want to use, you can skip this step and go to the assignment.)  Following the instructions, which are based on those in the [Unidata python workshop](https://unidata.github.io/python-training/), but modified to use Miniforge/mamba instead, which is much faster:
+First, let's install the miniforge version of python.  (If you already have miniconda/anaconda/mamba installed on the computer you want to use, you can skip this step and go to the assignment. Though you may still want to create a new conda environment for the class.)  Following the instructions, which are based on those in the [Unidata python workshop](https://unidata.github.io/python-training/), but modified to use Miniforge/mamba instead, which is much faster:
 
 #### Windows
 
