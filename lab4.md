@@ -9,7 +9,7 @@ In this lab, we will use [Cloud Model 1 (CM1)](https://www2.mmm.ucar.edu/people/
 The first step is to download and install CM1. Some instructions for doing that are [here](lab4/cm1_instructions.md).
 
 ## Analyzing and plotting CM1 output
-The recommended method for analyzing and plotting the model output is to use the NCAR [JupyterHub](https://jupyterhub.hpc.ucar.edu). This way you can do your analysis on the same compute system where you ran the model. Log in to the JupyterHub with the same credentials you use to log in to derecho, and the "Casper login" method.  I've put together an example Jupyter notebook [here](lab4/cm1_plots_examples.ipynb) that can hopefully get you started. Choose one of the provided environments, like "NPL 2025a".
+The recommended method for analyzing and plotting the model output is to use the NCAR [JupyterHub](https://jupyterhub.hpc.ucar.edu). This way you can do your analysis on the same compute system where you ran the model. Log in to the JupyterHub with the same credentials you use to log in to derecho, and the "Casper login" method.  I've put together an example Jupyter notebook [here](lab4/cm1_plots_examples.ipynb) that can hopefully get you started. Choose one of the provided environments, like "NPL 2025a". If you want to customize your JupyterHub environment further, documentation can be found [here](https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/jupyterhub/#getting-started).
 
 Though if you're more comfortable with using a different programming language, you're more than welcome to use that. The 'original' language used by CM1 is [GrADS](http://cola.gmu.edu/grads/), and this is another good choice.
 
