@@ -30,7 +30,7 @@ Now, change the initial wind profile to be the "RKW-type" wind profile.  (This i
 
 
 Create the same plots for this run as you did for the first run.  Also, reproduce what is shown in Figs. 5 and 6 of Klemp and Wilhelmson, using *t*=35 minutes. (Their 
-$\theta - \overline{\theta}$ field is the *thpert* field in CM1.)  What are the main differences in the structure of the storm between the no-shear run and this run with vertical shear?  Are there differences between your simulation and what's shown in the paper?  If so, discuss them.  What is the status of this storm at *t*=60 minutes?
+<img src="https://render.githubusercontent.com/render/math?math=\theta-\overline{\theta}"> field is the *thpert* field in CM1.)  What are the main differences in the structure of the storm between the no-shear run and this run with vertical shear?  Are there differences between your simulation and what's shown in the paper?  If so, discuss them.  What is the status of this storm at *t*=60 minutes?
 
 ### Your experiment
 Now choose something to change in the model to run one experiment of your own.  Discuss the change(s) you made in the model and why you made them, present the results, and discuss and what the results mean.  A few possibilities (though feel free to come up with your own): increase the model's horizontal or vertical resolution; change the microphysics to use a scheme that includes ice; turn on Coriolis; change the initial thermodynamic or wind profile.  There are some other example soundings on the CM1 webpage if you would like to try any of them.
