@@ -41,7 +41,7 @@ Now we'll move on to use CM1 to simulate the development of a squall line from i
 
 - Change the horizontal grid spacing to 3 km.  (Note, this is a fairly coarse grid for a squall-line simulation, but this allows it to run quickly on most any computer and still reveals the basic structure.)
 - Make the domain 300 km x 300 km.
-- Change the model time step to 12 s.
+- Change the model time step to 10 s.
 - Integrate the model for 3 hr (10800 s).
 - Initiate convection with a line of warm bubbles (instead of a single bubble).
 
