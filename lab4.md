@@ -28,7 +28,7 @@ Now, change the initial wind profile to be the "RKW-type" wind profile.  (This i
 
 
 Create the same plots for this run as you did for the first run.  Also, reproduce what is shown in Figs. 5 and 6 of Klemp and Wilhelmson, using *t*=35 minutes. (Their 
-<img src="https://render.githubusercontent.com/render/math?math=\theta-\overline{\theta}"> field is the *thpert* field in CM1.)  What are the main differences in the structure of the storm between the no-shear run and this run with vertical shear?  Are there differences between your simulation and what's shown in the paper?  If so, discuss them.  What is the status of this storm at *t*=60 minutes?
+$\theta - \overline{\theta}$ field is the *thpert* field in CM1.)  What are the main differences in the structure of the storm between the no-shear run and this run with vertical shear?  Are there differences between your simulation and what's shown in the paper?  If so, discuss them.  What is the status of this storm at *t*=60 minutes?
 
 ### Your experiment
 Now choose something to change in the model to run one experiment of your own.  Discuss the change(s) you made in the model and why you made them, present the results, and discuss and what the results mean.  A few possibilities (though feel free to come up with your own): increase the model's horizontal or vertical resolution; change the microphysics to use a scheme that includes ice; turn on Coriolis; change the initial thermodynamic or wind profile.  There are some other example soundings on the CM1 webpage if you would like to try any of them.
@@ -47,11 +47,11 @@ Now we'll move on to use CM1 to simulate the development of a squall line from i
 
 ### Horizontal slices
 
-Starting at *t*=30 minutes, plot the following three fields every 30 minutes of the simulation: vertical motion at 1.25 km above ground, pressure perturbation at the surface, and <img src="https://render.githubusercontent.com/render/math?math=\theta"> perturbation at the surface.  Feel free to combine any of these fields together onto the same plot at each time if you can make them look nice.  How are these fields evolving with time?  What processes are taking place in the model?  What are the primary features that are simulated?  Do the features that the model simulated resemble observations of squall lines?
+Starting at *t*=30 minutes, plot the following three fields every 30 minutes of the simulation: vertical motion at 1.25 km above ground, pressure perturbation at the surface, and $\theta$ perturbation at the surface.  Feel free to combine any of these fields together onto the same plot at each time if you can make them look nice.  How are these fields evolving with time?  What processes are taking place in the model?  What are the primary features that are simulated?  Do the features that the model simulated resemble observations of squall lines?
 
 ### Vertical sections
 
-At *t*=90, 105, 120, and 135 minutes, plot cross-sections through *y*=25 km.  (This should cut through the squall line.)  Plot the vertical motion and <img src="https://render.githubusercontent.com/render/math?math=\theta">-perturbation fields.  Also, plot airflow vectors at these times.  (Since *y* is constant, you will want your vectors to show *u, w*.)  Again, combine fields on plots as appropriate.  What is the structure of the simulated updrafts and downdrafts?  Are they tilted or upright?  At what levels are the updrafts and downdrafts maximized?  Where has the air been warmed or cooled, and how does this relate to the processes taking place?  What are the primary features of the airflow within the squall line?
+At *t*=90, 105, 120, and 135 minutes, plot cross-sections through *y*=25 km.  (This should cut through the squall line.)  Plot the vertical motion and $\theta$-perturbation fields.  Also, plot airflow vectors at these times.  (Since *y* is constant, you will want your vectors to show *u, w*.)  Again, combine fields on plots as appropriate.  What is the structure of the simulated updrafts and downdrafts?  Are they tilted or upright?  At what levels are the updrafts and downdrafts maximized?  Where has the air been warmed or cooled, and how does this relate to the processes taking place?  What are the primary features of the airflow within the squall line?
 
 ### (EXTRA CREDIT---you don't need to do this part but it's an opportunity to gain a few extra points)
 
