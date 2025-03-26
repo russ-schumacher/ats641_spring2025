@@ -1,5 +1,5 @@
 # Lab assignment 4
-## Due Friday, April 14
+## Due Friday, April 18
 
 Part 1 of the lab was distributed separately and involves analyzing an observed severe weather event (see [the PDF](lab4/lab4_2025.pdf) for instructions.)  
 
